@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Employee Management System</h1>   
+
+    <div id="inputForm">
+        <h2>Add New Employee</h2>
+        <form id="employeeForm">
+            <label for="code">Employee Code:</label><br>
+            <input type="text" id="code" name="code"><br><br>
+
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName"><br><br>
+
+            <label for="dateOfBirth">Date of Birth (YYYY-MM-DD):</label><br>
+            <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+
+            <label for="department">Department:</label><br>
+            <input type="text" id="department" name="department"><br><br>
+
+            <label for="salaryCoefficient">Salary Coefficient:</label><br>
+            <input type="number" id="salaryCoefficient" name="salaryCoefficient"><br><br>
+        </form>
+    </div>
+
+    <div id="employeeList">
+        <h2>Employee List</h2>
+    </div>
+    <input type="button" value="Add Employee" id="addButton"> 
+
+    <script src="employeeManagement.js"></script> 
+</body>
+
+</body>
+</html>
